@@ -1,0 +1,4 @@
+#make clean
+#CFLAGS="$CFLAGS -Wno-error"
+make ARCH=arm CROSS_COMPILE=$CCOMPILER -j1 $1
+

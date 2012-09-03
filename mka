@@ -1,0 +1,6 @@
+#make clean
+#CFLAGS="$CFLAGS -Wno-error"
+#make ARCH=arm CROSS_COMPILE=$CCOMPILER -j`grep 'processor' /proc/cpuinfo | wc -l` $1
+make ARCH=arm CROSS_COMPILE=$CCOMPILER -j8 $1
+
+
