@@ -1,3 +1,11 @@
+LG MSM7x27 Linux 3.4 Kernel Sources
+This is a repo with the sources for the 3.4 kernel for the LG MSM7x27 
+device family. This is still a work in progress, so please don't complain
+if something doesnt work. This kernel is based of of the Linux 3.4 kernel
+and it incluydes many optimizations over our currect 2.6.35 kernel
+
+Below are the reloaese notes for the original kernel:
+
 	Linux kernel release 3.x <http://kernel.org/>
 
 These are the release notes for Linux version 3.  Read them carefully,
